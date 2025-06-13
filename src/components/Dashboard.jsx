@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchBridgeData } from '../features/bridgeSlice';
+import { fetchBridgeData } from '../features/BridgeSlice';
 import BridgeCard from '../components/BridgeCard';
 
 const Dashboard = () => {
